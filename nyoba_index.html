@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+<!--baian awal-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latihan HTML</title>
@@ -11,12 +12,14 @@
     </style>
 </head>
 <body>
-     <h1>WELCOME</h1>
+<!--bagian awal landing page-->
+     <h1>WELCOME My percobaan</h1>
         <p>
-            Ini <b>adalah</b> halaman untuk <i>latihan</i> saja</p>
+            Ini <strong>adalah</strong> halaman untuk <em>latihan</em> saja</p>
             <br>
             <p>Ini adalah <b>paragraf</b> <i>kedua</i></p>
             <hr>
+<!--baian list-->
      <h2>first list</h2>
             <ul>
                 <li>Item 1</li>
@@ -31,11 +34,82 @@
                 <li>Item 3</li>
                 <li>Item 4</li>
             </ol>
+<!--bagian definisi list-->
+    <h4>
+        <dl>
+            <dt>HTML</dt>
+                <dd>Hypertext Markup Language</dd>
+            <dt>CSS</dt>
+                <dd>Cascading Style Sheet</dd>
+            <dt>JS</dt>
+                <dd> Java Script</dd>
+            </dt>
+        </dl>
+    </h4>
         <hr>
+<!--bagian gambar-->
     <h4>GAMBAR</h4>
-        <p> <b>Tampilan</b> <i>Gambar</i></p>
-        <img scr="https://static.vecteezy.com/system/resources/previews/001/416/705/non_2x/html5-emblem-orange-shield-and-white-text-vector.jpg" alt="logo HTML">
+        <p><strong>Tampilan</strong> <em>Gambar</em></p>
+        <img src="https://static.vecteezy.com/system/resources/previews/001/416/705/non_2x/html5-emblem-orange-shield-and-white-text-vector.jpg" alt="logo HTML" width="200">
         <br></br>
-        <a href="https://www.google.com/" target="_blank"> Klik disini utuk membuka</a>
+        <img src="img/foto.png" alt="Foto saya" width="200">
+        <br></br>
+      <hr>
+<!--bagian link-->
+      <h1>Bagian link</h1>
+       <a href="https://www.google.com/" target="_top">Klik disini untuk menuju ke google </a><br>
+       <a href="https://github.com">Klik disini untuk menuju ke github</a><br>
+    <h3>Link ke halaman lain</h3>
+      <p>Ini adalah link ke halaman lain</p>
+       <a href="index.html">Klik disini disini ke halaman file berikutnya</a><br>
+       <h4>Gabungan dari hyperlink dan image</h4>
+<!--bagian gabungan link dan gambar-->
+       <a href="https://www.google.com/search?sca_esv=64b268b11d0571a2&sxsrf=APpeQntEb2VHq51UcxpjLI7M-efNDAOAew:1786362795574&udm=2&fbs=ABfTbFWmYwLIYNEMFfx8WgwsNlLaHC42JQxROx1t8GoIA3GgK3Ry0icWoR4Jq7psfsRHH-bt00Y61ZD2BIOtMBAagjrHJcLDiTVO0kw5DJhinHh7NtLs8_g37Jz7FsEAcFtjizN90ik9PGvWK1l7eBvGEkNZjZN7QFpVwMPj5sY9pTphAqYk1nsvaxPDTR3FI9C97X8_ktMBxgwqaDGEei9COKWQKBMDNw&q=novel&sa=X&sqi=2&ved=2ahUKEwilxvr-_5WWAxUFk-EIHd62KikQtKgLegQIGBAB&biw=1280&bih=529&dpr=1.5#sv=CAMSURoyKhBlLUF1SEZvQWxkQ0xYSHFNMg5BdUhGb0FsZENMWEhxTToOSmtMVi1pc2tXYnlBSU0gBCoXCgFzEhBlLUF1SEZvQWxkQ0xYSHFNGAEwARgHIJmS58cNSggQARgBIAEoAQ">
+        <img src="img/novel rinjani.jpg" alt="novel rinjani" width="200">
+       </a>
+      <hr>
+
+<!--bagian table-->
+    <h1>Table</h1>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Usia</th>
+            <th>Alamat</th>
+        </tr>
+        <tr>
+            <td>Rizki</td>
+            <td>17</td>
+            <td>Jl. Mangunharjo</td>
+        </tr>
+        <tr>
+            <td>Gilang</td>
+            <td>18</td>
+            <td>Jl. Genggong</td>
+        </tr>
+    </table>
+    <hr>
+
+<!--bagian from-->
+    <h1>Form</h1>
+    <form action></form>
+    <hr>
+
+<!--bagian script-->
+    <h1>Script</h1>
+    <h1 id="judul">Halo</h1>
+
+    <button onclick="ubahTeks()">Klik Saya</button>
+
+    <script>
+        function ubahTeks() {
+            document.getElementById("judul").innerHTML = "Teks Berubah!";
+        }
+    </script>
+   <hr>
+
+<!--bagian objek-->
+   <h1>Objek</h1>
+
 </body>
 </html>
